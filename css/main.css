@@ -53,27 +53,75 @@
 html {
     font-size: 1rem;
 }
-
+* {
+    font-family: 'Raleway', sans-serif;
+}
 
 /*--------------------------------------------------------------
 4.0 - ELEMENTS 
 -------------------------------------------------------------- */
 /* -- TYPOGRAPHY -- */ 
 
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 2.25rem;
+    line-height: 1.25em;
+    color: #D63983;
+    letter-spacing: .05rem;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.85em;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+}
+h2 {
+    text-transform: uppercase;
+    margin-bottom: .25em;
+    margin-top: 3.5em;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: cadetblue;
+}
+
 @media only screen and (min-width: 768px){
-    
+    p {
+        line-height: 2em;
+    }
 }
 
 @media only screen and (min-width: 1024px){
-    
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        margin-bottom: .25em;
+    }
 }
 /*--------------------------------------------------------------
 5.0 - OBJECTS 
 -------------------------------------------------------------- */
+.wrapper {
+    width: 70%;
+}
+@media only screen and (min-width: 768px){
+    .wrapper {
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 1024px){
+    .wrapper {
+        width: 50%;
+    }
+}
 /*--------------------------------------------------------------
 6.0 - COMPONENTS 
 -------------------------------------------------------------- */
 /*--------------------------------------------------------------
 7.0 - UTILITIES
 -------------------------------------------------------------- */
-
+html {
+    background-color: #F9EDF4;
+}
