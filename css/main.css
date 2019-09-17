@@ -65,15 +65,15 @@ html {
 h1 {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 2.25rem;
-    line-height: 1.25em;
+    font-size: 2.5rem;
+    line-height: 1.20em;
     color: #D63983;
     letter-spacing: .05rem;
 }
 
 p {
     font-weight: 300;
-    line-height: 1.85em;
+    line-height: 2em;
     margin-bottom: 1.5em;
     margin-top: 0;
 }
@@ -85,7 +85,24 @@ h2 {
     font-weight: 800;
     color: cadetblue;
 }
+img {
+    margin-right: 40px;
+    width: 100%;
+}
 
+ul {
+    list-style-type: circle;
+    
+}
+
+
+li {
+    font-weight: 500;
+
+    line-height: 2em;
+    padding-bottom: 20px;
+    color: #D63983;
+}
 @media only screen and (min-width: 768px){
     p {
         line-height: 2em;
@@ -100,6 +117,8 @@ h2 {
         margin-bottom: .25em;
     }
 }
+
+
 /*--------------------------------------------------------------
 5.0 - OBJECTS 
 -------------------------------------------------------------- */
@@ -125,3 +144,11 @@ h2 {
 html {
     background-color: #F9EDF4;
 }
+
+@media only screen and (max-width: 768px){
+ .sm-none {
+    display: none;
+}   
+    
+}
+
