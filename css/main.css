@@ -83,7 +83,7 @@ h2 {
     margin-top: 3.5em;
     font-size: 1.5rem;
     font-weight: 800;
-    color: cadetblue;
+    color: #3B99CC;
 }
 img {
     margin-right: 40px;
@@ -102,6 +102,9 @@ li {
     line-height: 2em;
     padding-bottom: 20px;
     color: #D63983;
+}
+a:hover {
+    color: #14DABF;
 }
 @media only screen and (min-width: 768px){
     p {
@@ -142,7 +145,7 @@ li {
 7.0 - UTILITIES
 -------------------------------------------------------------- */
 html {
-    background-color: #F9EDF4;
+    background-color: #FFF8FF;
 }
 
 @media only screen and (max-width: 768px){
